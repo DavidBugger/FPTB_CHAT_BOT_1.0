@@ -1,0 +1,63 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey"],
+      "responses": ["Hello!", "Hi there! How can I assist you?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you"],
+      "responses": ["Goodbye! Take care.", "See you later!"]
+    },
+    {
+      "tag": "school_info",
+      "patterns": ["Where is the department of Computer Science Located?"],
+      "responses": [
+        "The Computer Science Department is opposite White house block electrical Engineering department"
+      ]
+    },
+    {
+      "tag": "other_departments",
+      "patterns": ["Are there any other departments apart from Computer Science?"],
+      "responses": [
+        "Yes, our polytechnic has various departments, including Electrical Engineering, Mechanical Engineering, Business Administration, and Biology. Each department is located in a different building on campus."
+      ]
+    },
+    {
+      "tag": "school_environment",
+      "patterns": ["How do I move around the school environment?"],
+      "responses": [
+        "S.U.G Bikes are available and can take you anywhere within the school environment, they usually were an oxblood beep with S.U.G boldly crested on it"
+      ]
+    },
+    {
+      "tag": "cs_courses",
+      "patterns": ["What courses are offered by the Computer Science Department?"],
+      "responses": [
+        "The Computer Science Department offers a wide range of courses, including Introduction to Programming, Data Structures and Algorithms, Artificial Intelligence, Web Development, and Database Systems."
+      ]
+    },
+    {
+      "tag": "registration_period",
+      "patterns": ["When does the registration period for the next semester begin?"],
+      "responses": [
+        "The registration period for the next semester typically starts in the month of July. Please refer to the polytechnic's official website (https://portal.fptb.edu.ng/)   or contact the Registrar's Office for the exact dates and procedures."
+      ]
+    },
+    {
+      "tag": "registration_requirements",
+      "patterns": ["Are there any specific requirements or documents needed for registration?"],
+      "responses": [
+        "Documents required:\n1. Online application form\n2. One recent passport\n3. Jamb result\n4. Jamb admission letter\n5. Birth Certificate or statutory declaration of age\n6. O’level result\n7. Pre-ND result\n8. 1-year industrial training letter\n9. Copy of cohesion letter for student with deficiency in O’level\n10. Admission Letter\n11. Current acceptance letter\n12. Payment receipt\n13. Medical form only signed by director medical service\n14. Oath form only signed\n15. Next of Kin form\n16. Siwes form (for ND & Diploma student)\n17. Course registration requirement\n18. Verification of registration requirement\n19. To whom it may concern\n20. Dress code form (Copy)"
+      ]
+    },
+    {
+      "tag": "registration_process",
+      "patterns": ["What’s the process involved in school registration?"],
+      "responses": [
+        "1. Buy Form online\n2. Pay acceptance fee\n3. Print out 14 pages (Admission print out)\n4. 1st screening of credentials\n5. Collect RRR slip for school fees payment from department\n6. Registration (3 photocopies required)\n7. Submit file to your department for record keeping\n8. Issue To Whom form to security department, close to school gate for your school I.D Card"
+      ]
+    }
+  ]
+}
