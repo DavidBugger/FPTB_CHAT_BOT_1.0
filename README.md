@@ -3,7 +3,7 @@ This chatbot has been developed specifically for Federal Polytechnic Bauchi to a
 
 # Installation Guide
 create a virtual environment
-python -m venv myenv
+python -m venv myenv 
 Activate the virtual environment  on windows
 myenv\Scripts\activate
 Activate the virtual environment on mac
